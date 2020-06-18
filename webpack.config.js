@@ -25,7 +25,7 @@ Encore
      */
     .addEntry('app', './assets/js/app.js')
     .addEntry('leaflet', './assets/js/leaflet.js')
-    //.addEntry('page2', './assets/js/page2.js')
+    .addEntry('leafletMap', './assets/js/leaflet-map.js')
 
     // When enabled, Webpack "splits" your files into smaller pieces for greater optimization.
     .splitEntryChunks()
